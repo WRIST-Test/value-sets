@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "title": "Mean daily glucose monitoring frequency: [1] OR Percent glucose sensor data available: % OR Percent number of glucose sensor failures: %",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "https://ucum.org/ucum"
+          }
+        ],
+        "system": "http://unitsofmeasure.org"
+      }
+    ]
+  },
+  "name": "Mean_daily_glucose_monitoring_frequency___1__OR_Percent_glucose_",
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "mean-daily-glucose-monitoring-frequency-1-or-percent-glucose-sensor-data-available-or-percent-number-of-glucose-sensor-failures",
+    "collection": "WRIST-PRSB-specialised-building-block-data-set",
+    "updatedAt": "2026-06-24T11:59:10.333273+00:00",
+    "createdBy": "FrankiePH",
+    "createdAt": "2026-06-24T11:59:10.333273+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "init",
+        "date": "2026-06-24T11:59:10.333273+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  }
+}
