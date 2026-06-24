@@ -1,0 +1,59 @@
+{
+  "_libraryMeta": {
+    "collection": "steve-test",
+    "slug": "anaesthesia-analgesia-complications-actions",
+    "version": "1-build.0.0",
+    "updatedAt": "2026-06-24T11:01:38.751786+00:00",
+    "createdBy": "FrankiePH",
+    "createdAt": "2026-06-24T11:01:38.751786+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "added test codes",
+        "date": "2026-06-24T11:01:38.751786+00:00",
+        "author": "FrankiePH"
+      }
+    ]
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "2376471000001106",
+            "display": "Asthalin"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "Anaesthesia Analgesia Complications Actions",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "2376471000001106",
+        "display": "Asthalin"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "2376471000001106",
+        "display": "Asthalin",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "asth",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "2376471000001106"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/anaesthesia-analgesia-complications-actions-8d57c6e632ae",
+  "_bindingStrength": "preferred",
+  "description": ""
+}
