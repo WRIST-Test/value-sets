@@ -1,0 +1,159 @@
+{
+  "resourceType": "ValueSet",
+  "title": "test devices",
+  "status": "draft",
+  "compose": {
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "43195111000001109",
+            "display": "AutoSoft 30 t:lock infusion set D3021000 13mm cannula. 60cm tubing (Air Liquide Healthcare Ltd)"
+          },
+          {
+            "code": "43195311000001106",
+            "display": "AutoSoft 30 t:lock infusion set D3022000 13mm cannula. 110cm tubing (Air Liquide Healthcare Ltd)"
+          },
+          {
+            "code": "43195411000001104",
+            "display": "AutoSoft 90 t:lock infusion set D3011000 6mm cannula, 60cm tubing Grey (Air Liquide Healthcare Ltd)"
+          },
+          {
+            "code": "43195711000001105",
+            "display": "AutoSoft 90 t:lock infusion set D3012000 6mm cannula, 110cm tubing Grey (Air Liquide Healthcare Ltd)"
+          },
+          {
+            "code": "43195811000001102",
+            "display": "AutoSoft 90 t:lock infusion set D3013000 9mm cannula, 60cm tubing Grey (Air Liquide Healthcare Ltd)"
+          },
+          {
+            "code": "43197311000001103",
+            "display": "AutoSoft 90 t:lock infusion set D3014000 9mm cannula, 110cm tubing Grey (Air Liquide Healthcare Ltd)"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ],
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "34865511000001109",
+            "display": "Glucose interstitial fluid detection sensor"
+          },
+          {
+            "code": "42668711000001107",
+            "display": "Blood glucose meters - for personal use (single user)"
+          },
+          {
+            "code": "42754311000001102",
+            "display": "Combination blood glucose and blood ketone meters - for personal use (single user)"
+          },
+          {
+            "code": "43801711000001103",
+            "display": "Electronic insulin infusion patch pump systems"
+          },
+          {
+            "code": "42957311000001104",
+            "display": "Electronic insulin infusion tethered pump systems"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "ctest-devices",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>test devices</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/ctest-devices-2fec897e9e97",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "34865511000001109": {
+        "action": "include",
+        "code": "34865511000001109",
+        "display": "Glucose interstitial fluid detection sensor",
+        "level": "VMP"
+      },
+      "42668711000001107": {
+        "action": "include",
+        "code": "42668711000001107",
+        "display": "Blood glucose meters - for personal use (single user)",
+        "level": "VMP"
+      },
+      "42754311000001102": {
+        "action": "include",
+        "code": "42754311000001102",
+        "display": "Combination blood glucose and blood ketone meters - for personal use (single user)",
+        "level": "VMP"
+      },
+      "43801711000001103": {
+        "action": "include",
+        "code": "43801711000001103",
+        "display": "Electronic insulin infusion patch pump systems",
+        "level": "VMP"
+      },
+      "42957311000001104": {
+        "action": "include",
+        "code": "42957311000001104",
+        "display": "Electronic insulin infusion tethered pump systems",
+        "level": "VMP"
+      },
+      "43195111000001109": {
+        "action": "exclude",
+        "code": "43195111000001109",
+        "display": "AutoSoft 30 t:lock infusion set D3021000 13mm cannula. 60cm tubing (Air Liquide Healthcare Ltd)",
+        "level": "AMP"
+      },
+      "43195311000001106": {
+        "action": "exclude",
+        "code": "43195311000001106",
+        "display": "AutoSoft 30 t:lock infusion set D3022000 13mm cannula. 110cm tubing (Air Liquide Healthcare Ltd)",
+        "level": "AMP"
+      },
+      "43195411000001104": {
+        "action": "exclude",
+        "code": "43195411000001104",
+        "display": "AutoSoft 90 t:lock infusion set D3011000 6mm cannula, 60cm tubing Grey (Air Liquide Healthcare Ltd)",
+        "level": "AMP"
+      },
+      "43195711000001105": {
+        "action": "exclude",
+        "code": "43195711000001105",
+        "display": "AutoSoft 90 t:lock infusion set D3012000 6mm cannula, 110cm tubing Grey (Air Liquide Healthcare Ltd)",
+        "level": "AMP"
+      },
+      "43195811000001102": {
+        "action": "exclude",
+        "code": "43195811000001102",
+        "display": "AutoSoft 90 t:lock infusion set D3013000 9mm cannula, 60cm tubing Grey (Air Liquide Healthcare Ltd)",
+        "level": "AMP"
+      },
+      "43197311000001103": {
+        "action": "exclude",
+        "code": "43197311000001103",
+        "display": "AutoSoft 90 t:lock infusion set D3014000 9mm cannula, 110cm tubing Grey (Air Liquide Healthcare Ltd)",
+        "level": "AMP"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "test-devices",
+    "collection": "WRIST-sandbox",
+    "updatedAt": "2026-07-16T09:14:06.063772+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-07-16T09:14:06.063772+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "test",
+        "date": "2026-07-16T09:14:06.063772+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
