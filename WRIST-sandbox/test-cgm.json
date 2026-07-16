@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "title": "test cgm",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "34865511000001109",
+            "display": "Glucose interstitial fluid detection sensor"
+          }
+        ],
+        "system": "https://dmd.nhs.uk"
+      }
+    ]
+  },
+  "name": "test-CGM",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>test cgm</p></div>",
+    "status": "generated"
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/test-cgm-6b5f7f2f7229",
+  "_builderState": {
+    "mode": "dmd-tree",
+    "decisions": {
+      "34865511000001109": {
+        "action": "include",
+        "code": "34865511000001109",
+        "display": "Glucose interstitial fluid detection sensor",
+        "level": "VMP"
+      }
+    }
+  },
+  "_bindingStrength": "preferred",
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "test-cgm",
+    "collection": "WRIST-sandbox",
+    "updatedAt": "2026-07-16T09:10:08.756559+00:00",
+    "createdBy": "zchahl3",
+    "createdAt": "2026-07-16T09:10:08.756559+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Test",
+        "date": "2026-07-16T09:10:08.756559+00:00",
+        "author": "zchahl3"
+      }
+    ]
+  }
+}
