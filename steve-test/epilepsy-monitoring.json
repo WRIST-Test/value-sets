@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "title": "epilepsy monitoring",
+  "status": "active",
+  "compose": {
+    "include": [],
+    "exclude": []
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "epilepsy-monitoring",
+    "collection": "steve-test",
+    "updatedAt": "2026-10-13T09:54:33.609175+00:00",
+    "createdBy": "scb1966",
+    "createdAt": "2026-10-13T09:54:33.609175+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-10-13T09:54:33.609175+00:00",
+        "author": "scb1966"
+      }
+    ]
+  }
+}
