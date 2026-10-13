@@ -1,16 +1,9 @@
 {
-  "resourceType": "ValueSet",
-  "title": "epilepsy monitoring",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "epilepsy-monitoring",
     "collection": "steve-test",
-    "updatedAt": "2026-10-13T09:54:33.609175+00:00",
+    "slug": "epilepsy-monitoring",
+    "updatedAt": "2026-10-13T09:56:05.531592+00:00",
+    "version": "1-build.0.1",
     "createdBy": "scb1966",
     "createdAt": "2026-10-13T09:54:33.609175+00:00",
     "changeLog": [
@@ -19,7 +12,55 @@
         "reason": "Initial creation",
         "date": "2026-10-13T09:54:33.609175+00:00",
         "author": "scb1966"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "added",
+        "date": "2026-10-13T09:56:05.531592+00:00",
+        "author": "scb1966"
       }
     ]
-  }
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "243857008",
+            "display": "Epilepsy monitoring status"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "epilepsy monitoring",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "243857008",
+        "display": "Epilepsy monitoring status"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "243857008",
+        "display": "Epilepsy monitoring status",
+        "action": "include",
+        "operator": "descendantOf"
+      }
+    ],
+    "search": {
+      "query": "243857008",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "243857008"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/epilepsy-monitoring-9daf6c2a138e",
+  "_bindingStrength": "preferred",
+  "description": ""
 }
