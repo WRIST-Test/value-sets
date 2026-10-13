@@ -1,16 +1,9 @@
 {
-  "resourceType": "ValueSet",
-  "title": "epilepsy seizure frequency",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "epilepsy-seizure-frequency",
     "collection": "steve-test",
-    "updatedAt": "2026-10-13T09:49:48.868746+00:00",
+    "slug": "epilepsy-seizure-frequency",
+    "updatedAt": "2026-10-13T09:52:08.174986+00:00",
+    "version": "1-build.0.1",
     "createdBy": "scb1966",
     "createdAt": "2026-10-13T09:49:48.868746+00:00",
     "changeLog": [
@@ -19,7 +12,55 @@
         "reason": "Initial creation",
         "date": "2026-10-13T09:49:48.868746+00:00",
         "author": "scb1966"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "added",
+        "date": "2026-10-13T09:52:08.174986+00:00",
+        "author": "scb1966"
       }
     ]
-  }
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "363856007",
+            "display": "Seizure observable"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "epilepsy seizure frequency",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "363856007",
+        "display": "Seizure observable"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "363856007",
+        "display": "Seizure observable",
+        "action": "include",
+        "operator": "descendantOf"
+      }
+    ],
+    "search": {
+      "query": "363856007",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "363856007"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/epilepsy-seizure-frequency-e0bdbe56ee8e",
+  "_bindingStrength": "preferred",
+  "description": ""
 }
