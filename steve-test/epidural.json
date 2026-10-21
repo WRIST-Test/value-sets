@@ -1,16 +1,9 @@
 {
-  "resourceType": "ValueSet",
-  "title": "epidural",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "epidural",
     "collection": "steve-test",
-    "updatedAt": "2026-10-21T10:30:44.745005+00:00",
+    "slug": "epidural",
+    "updatedAt": "2026-10-21T10:33:42.569348+00:00",
+    "version": "1-build.0.1",
     "createdBy": "scb1966",
     "createdAt": "2026-10-21T10:30:44.745005+00:00",
     "changeLog": [
@@ -19,7 +12,65 @@
         "reason": "Initial creation",
         "date": "2026-10-21T10:30:44.745005+00:00",
         "author": "scb1966"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "first ver",
+        "date": "2026-10-21T10:33:42.569348+00:00",
+        "author": "scb1966"
       }
     ]
-  }
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "51898002",
+            "display": "Injection of spinal epidural space"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "epidural",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "51898002",
+        "display": "Injection of spinal epidural space"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "51898002",
+        "display": "Injection of spinal epidural space",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "51898002",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "51898002"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/epidural-fbc2bd2d57b2",
+  "_bindingStrength": "preferred",
+  "description": "",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "GB",
+          "display": "United Kingdom"
+        }
+      ]
+    }
+  ]
 }
