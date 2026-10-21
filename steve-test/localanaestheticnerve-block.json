@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "title": "localanaestheticnerve block",
+  "status": "active",
+  "compose": {
+    "include": [],
+    "exclude": []
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "localanaestheticnerve-block",
+    "collection": "steve-test",
+    "updatedAt": "2026-10-21T13:08:20.530842+00:00",
+    "createdBy": "scb1966",
+    "createdAt": "2026-10-21T13:08:20.530842+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-10-21T13:08:20.530842+00:00",
+        "author": "scb1966"
+      }
+    ]
+  }
+}
