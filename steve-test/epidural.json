@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "title": "epidural",
+  "status": "active",
+  "compose": {
+    "include": [],
+    "exclude": []
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "epidural",
+    "collection": "steve-test",
+    "updatedAt": "2026-10-21T10:30:44.745005+00:00",
+    "createdBy": "scb1966",
+    "createdAt": "2026-10-21T10:30:44.745005+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-10-21T10:30:44.745005+00:00",
+        "author": "scb1966"
+      }
+    ]
+  }
+}
