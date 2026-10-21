@@ -1,16 +1,9 @@
 {
-  "resourceType": "ValueSet",
-  "title": "localanaestheticnerve block",
-  "status": "active",
-  "compose": {
-    "include": [],
-    "exclude": []
-  },
   "_libraryMeta": {
-    "version": "1-build.0.0",
-    "slug": "localanaestheticnerve-block",
     "collection": "steve-test",
-    "updatedAt": "2026-10-21T13:08:20.530842+00:00",
+    "slug": "localanaestheticnerve-block",
+    "updatedAt": "2026-10-21T13:09:01.882514+00:00",
+    "version": "1-build.0.1",
     "createdBy": "scb1966",
     "createdAt": "2026-10-21T13:08:20.530842+00:00",
     "changeLog": [
@@ -19,7 +12,54 @@
         "reason": "Initial creation",
         "date": "2026-10-21T13:08:20.530842+00:00",
         "author": "scb1966"
+      },
+      {
+        "version": "1-build.0.1",
+        "reason": "ver1",
+        "date": "2026-10-21T13:09:01.882514+00:00",
+        "author": "scb1966"
       }
     ]
-  }
+  },
+  "compose": {
+    "include": [
+      {
+        "concept": [
+          {
+            "code": "303356007",
+            "display": "Local anaesthetic nerve block around spinal cord meninges"
+          }
+        ],
+        "system": "http://snomed.info/sct"
+      }
+    ]
+  },
+  "resourceType": "ValueSet",
+  "status": "active",
+  "title": "localanaestheticnerve block",
+  "_builderState": {
+    "mode": "snomed-tree",
+    "roots": [
+      {
+        "code": "303356007",
+        "display": "Local anaesthetic nerve block around spinal cord meninges"
+      }
+    ],
+    "decisions": [
+      {
+        "code": "303356007",
+        "display": "Local anaesthetic nerve block around spinal cord meninges",
+        "action": "include"
+      }
+    ],
+    "search": {
+      "query": "303356007",
+      "activeOnly": true,
+      "refsetCode": "",
+      "inspectingCode": "303356007"
+    }
+  },
+  "url": "https://ramseysystems.co.uk/fhir/ValueSet/localanaestheticnerve-block-8aab33442fd2",
+  "_bindingStrength": "preferred",
+  "description": ""
 }
