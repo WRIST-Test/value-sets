@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "title": "demo test",
+  "status": "active",
+  "compose": {
+    "include": [],
+    "exclude": []
+  },
+  "_libraryMeta": {
+    "version": "1-build.0.0",
+    "slug": "demo-test",
+    "collection": "steve-test",
+    "updatedAt": "2026-11-09T11:11:28.760086+00:00",
+    "createdBy": "scb1966",
+    "createdAt": "2026-11-09T11:11:28.760086+00:00",
+    "changeLog": [
+      {
+        "version": "1-build.0.0",
+        "reason": "Initial creation",
+        "date": "2026-11-09T11:11:28.760086+00:00",
+        "author": "scb1966"
+      }
+    ]
+  }
+}
